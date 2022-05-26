@@ -1,17 +1,10 @@
 
 const initialCards = [
-  { id: 1, question: 'What is 2 + 2', answer: '4', correct: true },
-  { id: 2, question: 'What is 3+3', answer: '6', correct: true },
-  { id: 3, question: 'What is 5 + 5', answer: '10', correct: true },
+  { id: 1, question: 'What is Gorillas can catch human colds and other illnesses ?', answer: 'false', correct: true },
+  { id: 2, question: 'For every human in the world there are one million ants ?', answer: 'true', correct: true },
+  { id: 3, question: 'Most elephants weigh less than the tongue of a blue whale ?', answer: 'true', correct: true },
 ]
 
-const Cards = () => {
-  return (
-    <div>
-      <h1>{ }</h1>
-    </div>
-  )
-}
 
 
-export default Cards
+export default initialCards
