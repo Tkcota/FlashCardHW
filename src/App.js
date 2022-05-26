@@ -1,21 +1,17 @@
 import './App.css';
 import initialCards from './MyCards';
+import MyCard from './Cards';
 
 function App() {
 
-  let answer = initialCards[0].id;
-
-  const handleClick = () => {
-    console.log(answer)
+  const showCorrectAnswer = () => {
+    if (initialCards[0].id === 1) {
+    }
   }
 
   const renderCards = () => {
     return initialCards.map((c) => {
-
-      return <div className='cards'>
-        {c.question}
-        <button onClick={() => { handleClick() }} className='Button'>Show Answer</button>
-      </div>
+      return <MyCard c={c} />
 
 
 
@@ -24,7 +20,8 @@ function App() {
   return (
     <div className='App'>
       <h1>True or False questions!</h1>
-      {renderCards()}
+      <div className='cardbox'>      {renderCards()}
+      </div>
 
     </div>
   )

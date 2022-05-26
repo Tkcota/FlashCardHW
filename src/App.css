@@ -1,16 +1,32 @@
+.cardbox {
+  display: flex;
+}
+
 .cards {
   border: solid steelblue 2px;
   font-size: 30px;
   font-family: 'Lobster Two', cursive;
   margin: 10px;
+  height: 120px;
+  justify-content: center;
 }
 
 body {
   background-color: lightgray;
+
+
+
+}
+
+button {
+  background-color: rgb(244, 108, 10);
+  color: darkmagenta;
+
 }
 
 .App {
   text-align: center;
+
 }
 
 .App-logo {
