@@ -3,12 +3,16 @@
 }
 
 .cards {
+  display: flex;
   border: solid steelblue 2px;
+  min-width: 200px;
   font-size: 30px;
   font-family: 'Lobster Two', cursive;
   margin: 10px;
-  height: 120px;
-  justify-content: center;
+  min-height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(11, 209, 209);
 }
 
 body {

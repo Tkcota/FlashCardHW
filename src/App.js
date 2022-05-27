@@ -4,11 +4,6 @@ import MyCard from './Cards';
 
 function App() {
 
-  const showCorrectAnswer = () => {
-    if (initialCards[0].id === 1) {
-    }
-  }
-
   const renderCards = () => {
     return initialCards.map((c) => {
       return <MyCard c={c} />
@@ -20,7 +15,8 @@ function App() {
   return (
     <div className='App'>
       <h1>True or False questions!</h1>
-      <div className='cardbox'>      {renderCards()}
+      <div className='cardbox'>      
+      {renderCards()}
       </div>
 
     </div>
