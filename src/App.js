@@ -7,9 +7,6 @@ function App() {
   const renderCards = () => {
     return initialCards.map((c) => {
       return <MyCard c={c} />
-
-
-
     })
   }
   return (
