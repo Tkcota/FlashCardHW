@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div className='App'>
-      <h1>True or False questions!</h1>
+      <h1>True or False?!</h1>
       <div className='cardbox'>      
       {renderCards()}
       </div>
